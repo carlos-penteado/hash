@@ -1,0 +1,28 @@
+.App, h1, h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  padding: 0;
+  border-spacing: 0;
+}
+td {
+  border: 1px solid black;
+}
+td button, td {
+  height: 64px;
+  width: 64px;
+  text-align: center;
+}
+.l1 td {
+  border-top: none;
+}
+.l3 td {
+  border-bottom: none;
+}
+td.c1 {
+  border-left: none;
+}
+td.c3 {
+  border-right: none;
+}
